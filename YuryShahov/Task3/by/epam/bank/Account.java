@@ -33,7 +33,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="person" type="{http://www.epam.by/bank}Person"/>
  *         &lt;element name="account-id" type="{http://www.w3.org/2001/XMLSchema}unsignedLong"/>
  *         &lt;element name="currency" type="{http://www.epam.by/bank}Currency"/>
- *         &lt;element name="allperiod" type="{http://www.epam.by/bank}AllPeriod"/>
+ *         &lt;element name="allperiod" type="{http://www.epam.by/bank}AllPeriod"/> 
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
