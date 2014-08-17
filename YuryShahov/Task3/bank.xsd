@@ -20,7 +20,6 @@
           <element name="credit-type" type="tns:CreditType"/>
           <element name="dept" type="double"/>
         </sequence>
-        <attribute name="id" use="required" type="ID"/>
       </extension>
     </complexContent>
   </complexType>
@@ -31,7 +30,6 @@
           <element name="deposite-type" type="tns:DepositeType"/>
           <element name="amount" type="double"/>
         </sequence>
-        <attribute name="id" use="required" type="tns:Id"/>
       </extension>
     </complexContent>
   </complexType>
@@ -41,10 +39,23 @@
       <element name="product-name" type="string"/>
       <element name="country" type="string"/>
       <element name="person" type="tns:Person"/>
-      <element name="account-id" type="unsignedLong"/>
+      <element name="account-id">
+        <simpleType>
+          <restriction base="unsignedLong">
+            <pattern value="\d{12}"/>
+          </restriction>
+        </simpleType>
+      </element>
       <element name="currency" type="tns:Currency"/>
       <element name="allperiod" type="tns:AllPeriod"/>
     </sequence>
+    <attribute name="id" use="required">
+      <simpleType>
+        <restriction base="ID">
+          <pattern value="^(\d).*$"/>
+        </restriction>
+      </simpleType>
+    </attribute>
   </complexType>
   <complexType name="Person">
     <sequence>
@@ -66,11 +77,6 @@
       <element name="time-max" type="unsignedInt" minOccurs="0" maxOccurs="unbounded"/>
     </sequence>
   </complexType>
-  <simpleType name="Id">
-    <restriction base="ID">
-      <pattern value="^[0-9]*$"/>
-    </restriction>
-  </simpleType>
   <simpleType name="Telephone">
     <restriction base="string">
       <pattern value="^[0-9, ]*$"/>
