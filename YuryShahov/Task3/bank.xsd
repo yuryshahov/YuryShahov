@@ -52,7 +52,7 @@
     <attribute name="id" use="required">
       <simpleType>
         <restriction base="ID">
-          <pattern value="^(\d).*$"/>
+          <pattern value="^x(\d).*$"/>
         </restriction>
       </simpleType>
     </attribute>

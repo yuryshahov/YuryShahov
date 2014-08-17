@@ -5,7 +5,7 @@
 	<deposite id="x1">
     <name>Банк БелВЭБ</name>
     <product-name>Золотое время</product-name>
-    <country>Беларусь</country>
+    <country>Беларусь</country> 
     <person>
       <first-name>Иван</first-name>
       <last-name>Иванов</last-name>
