@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.epam.by/bank"
+      xsi:schemaLocation="http://www.epam.by/bank  bank.xsd">
+	<deposite id="1">
+    <name>Банк БелВЭБ</name>
+    <product-name>Золотое время</product-name>
+    <country>Беларусь</country>
+    <person>
+      <first-name>Иван</first-name>
+      <last-name>Иванов</last-name>
+      <telephone>80293245345</telephone>
+    </person>
+		<account-id>1</account-id>
+    <currency>BYR</currency>
+    <allperiod>
+			<period>
+				<profitability>34</profitability>
+				<time-type>no</time-type>
+				<time-min>0</time-min>
+				<time-max>0</time-max>
+			</period>
+		</allperiod>
+    <deposite-type>срочный</deposite-type>
+    <amount>234653482335</amount>
+	</deposite>
+  <credit id="2">
+    <name>Банк БелВЭБ</name>
+    <product-name>Золотое время</product-name>
+    <country>Беларусь</country>
+    <person>
+      <first-name>Иван</first-name>
+      <last-name>Иванов</last-name>
+      <telephone>80293245345</telephone>
+    </person>
+    <account-id>1</account-id>
+    <currency>BYR</currency>
+    <allperiod>
+      <period>
+        <profitability>86</profitability>
+        <time-type>month</time-type>
+        <time-min>4</time-min>
+        <time-max>6</time-max>
+      </period>
+    </allperiod>
+    <credit-type>экспресс</credit-type>
+    <dept>234423555566</dept>
+  </credit>
+	<deposite id="3">
+		<name>Идея Банк</name>
+		<product-name>Заботливый</product-name>
+		<country>Беларусь</country>
+    <person>
+      <first-name>Петр</first-name>
+      <last-name>Петров</last-name>
+      <telephone>80292432553</telephone>
+    </person>
+		<account-id>2</account-id>
+		<currency>BYR</currency>
+    <allperiod>
+      <period>
+				<profitability>33.5</profitability>
+				<time-type>month</time-type>
+				<time-min>0</time-min>
+				<time-max>6</time-max>
+			</period>
+      <period>
+				<profitability>25.5</profitability>
+				<time-type>month</time-type>
+				<time-min>7</time-min>
+				<time-max>18</time-max>
+			</period>
+		</allperiod>
+    <deposite-type>срочный</deposite-type>
+    <amount>71234687135</amount>
+	</deposite>
+	<deposite id="4">
+		<name>Банк ВТБ</name>
+		<product-name>Капитал</product-name>
+		<country>Беларусь</country>
+		<person>
+			<first-name>Сидр</first-name>
+			<last-name>Сидоров</last-name>
+      <telephone>80293849183</telephone>
+		</person>
+		<account-id>3</account-id>
+		<currency>BYR</currency>
+    <allperiod>
+			<period>
+				<profitability>33</profitability>
+				<time-type>month</time-type>
+				<time-min>5</time-min>
+				<time-max>24</time-max>
+			</period>
+		</allperiod>
+    <deposite-type>срочный</deposite-type>
+    <amount>285724554435</amount>
+	</deposite>
+	<deposite id="5">
+		<name>Банк ВТБ</name>
+		<product-name>Дорогой</product-name>
+		<country>Беларусь</country>
+		<person>
+			<first-name>Иван</first-name>
+			<last-name>Сидоров</last-name>
+      <telephone>80339382474</telephone>
+		</person>
+		<account-id>4</account-id>
+		<currency>BYR</currency>
+    <allperiod>
+			<period>
+				<profitability>33</profitability>
+				<time-type>month</time-type>
+				<time-min>3</time-min>
+				<time-max>12</time-max>
+			</period>
+		</allperiod>
+    <deposite-type>срочный</deposite-type>
+    <amount>34563479658</amount>
+	</deposite>
+	<deposite id="6">
+		<name>Банк БелВЭБ</name>
+		<product-name>Персона</product-name>
+		<country>Беларусь</country>
+		<person>
+			<first-name>Сергей</first-name>
+			<last-name>Петрович</last-name>
+      <telephone>80449114372</telephone>
+		</person>
+		<account-id>5</account-id>
+		<currency>USD</currency>
+    <allperiod>
+			<period>
+				<profitability>4.5</profitability>
+				<time-type>month</time-type>
+				<time-min>1</time-min>
+				<time-max>3</time-max>
+			</period>
+      <period>
+        <profitability>5.6</profitability>
+        <time-type>month</time-type>
+        <time-min>3</time-min>
+        <time-max>6</time-max>
+      </period>
+			<period>
+				<profitability>6.2</profitability>
+				<time-type>month</time-type>
+				<time-min>6</time-min>
+				<time-max>12</time-max>
+			</period>
+			<period>
+				<profitability>6.5</profitability>
+				<time-type>month</time-type>
+				<time-min>12</time-min>
+				<time-max>24</time-max>
+			</period>
+		</allperiod>
+    <deposite-type>накопительный</deposite-type>
+    <amount>475643</amount>
+	</deposite>
+</bank>
