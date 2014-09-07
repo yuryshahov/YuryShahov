@@ -2,7 +2,7 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
         targetNamespace="http://www.epam.by/bank"
         xmlns:tns="http://www.epam.by/bank"
-        elementFormDefault="qualified">
+        elementFormDefault="qualified"> 
   <element name="account" type="tns:Account" abstract="true"/>
   <element name="deposite" type="tns:Deposite" substitutionGroup="tns:account"/>
   <element name="credit" type="tns:Credit" substitutionGroup="tns:account"/>
