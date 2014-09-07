@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns="http://www.epam.by/cars"
+      xsi:schemaLocation="http://www.epam.by/cars  cars.xsd">
+	<car>
+		<id>1</id>
+		<brand>Audi A8 4.0 TFSI</brand>
+		<fuelconsumption>9.1</fuelconsumption>
+		<displacement>3993</displacement>
+		<maxspeed>250</maxspeed>
+		<year>2014</year>
+		<cost>4760000</cost>
+		<seats>5</seats>
+	</car>
+	<car>
+		<id>2</id>
+		<brand>BMW X5 M</brand>
+		<fuelconsumption>13.9</fuelconsumption>
+		<displacement>4395</displacement>
+		<maxspeed>250</maxspeed>
+		<year>2014</year>
+		<cost>4295000</cost>
+		<seats>5</seats>
+	</car>
+	<car>
+		<id>3</id>
+		<brand>Лада Калина 1,6 л. 8-кл. (Евро-3)</brand>
+		<fuelconsumption>7.8</fuelconsumption>
+		<displacement>1596</displacement>
+		<maxspeed>160</maxspeed>
+		<year>2014</year>
+		<cost>327500</cost>
+		<seats>5</seats>
+	</car>
+	<car>
+		<id>4</id>
+		<brand>Audi A4 3.0 TDI quattro AMT</brand>
+		<fuelconsumption>5.9</fuelconsumption>
+		<displacement>2967</displacement>
+		<maxspeed>250</maxspeed>
+		<year>2014</year>
+		<cost>2003000</cost>
+		<seats>5</seats>
+	</car>
+	<car>
+		<id>5</id>
+		<brand>Ford Mustang GT 5.0</brand>
+		<fuelconsumption>11.8</fuelconsumption>
+		<displacement>5000</displacement>
+		<maxspeed>300</maxspeed>
+		<year>2014</year>
+		<cost>2003000</cost>
+		<seats>5</seats>
+	</car>
+	<car>
+		<id>6</id>
+		<brand>Fiat Punto III 1.9 JTD (5 dr)</brand>
+		<fuelconsumption>4.9</fuelconsumption>
+		<displacement>1910</displacement>
+		<maxspeed>173</maxspeed>
+		<year>2014</year>
+		<cost>555000</cost>
+		<seats>5</seats>
+	</car>
+	<car>
+		<id>7</id>
+		<brand>Honda Civic 5D</brand>
+		<fuelconsumption>6.3</fuelconsumption>
+		<displacement>1798</displacement>
+		<maxspeed>209</maxspeed>
+		<year>2014</year>
+		<cost>1099000</cost>
+		<seats>5</seats>
+	</car>
+</cars>

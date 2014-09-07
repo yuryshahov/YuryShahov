@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://www.epam.by/cars" 
+		xmlns:tns="http://www.epam.by/cars" 
+		elementFormDefault="qualified">
+	<element name="cars">
+		<complexType>
+			<sequence>
+				<element name="car" type="tns:Car" minOccurs="0" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="Car">
+		<sequence>
+			<element name="id" type="unsignedLong"/>
+			<element name="brand" type="string"/>
+			<element name="fuelconsumption" type="double"/>
+			<element name="displacement" type="double"/>
+			<element name="maxspeed" type="double"/>
+			<element name="year" type="unsignedInt"/>
+			<element name="cost" type="double"/>
+			<element name="seats" type="unsignedInt"/>
+		</sequence>
+	</complexType>
+</schema>
